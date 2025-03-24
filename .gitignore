@@ -1,0 +1,11 @@
+# exclude build time directories
+bin/
+obj/
+
+# exclude build files
+./**compile_commands.json
+./**Makefile
+./**.make
+
+# exclude clangd cache folder
+.cache/
